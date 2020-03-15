@@ -1,0 +1,31 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  margin: 0 5rem 3rem 0;
+  height: 1.5rem;
+  width: 10rem;
+  font-family: fantasy;
+  border: 1px #333 dashed;
+  outline: none;
+}
+
+.add {
+  padding: 0.2rem 1.2rem;
+  border: none;
+  background: #1900ff;
+  color: #f1f1f1;
+  font-family: cursive;
+  border-radius: 4px;
+}
+
+.list {
+  list-style: none;
+  margin: 1rem 0;
+}
